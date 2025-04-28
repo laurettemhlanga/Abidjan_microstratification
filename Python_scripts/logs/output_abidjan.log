@@ -1,0 +1,19 @@
+Job started on Mon 31 Mar 2025 01:37:48 PM CDT
+Running on node: freya
+Current directory: /home/lmhlanga/repos/malaria_determinants/NMEP_classification
+       dplyr     parallel     devtools       raster      officer     magrittr 
+        TRUE         TRUE         TRUE         TRUE         TRUE         TRUE 
+        foot        tidyr      foreach   doParallel      stringr        stats 
+        TRUE         TRUE         TRUE         TRUE         TRUE         TRUE 
+future.apply           sf 
+       FALSE         TRUE 
+Reading layer `abidjan_grids' from data source 
+  `/home/lmhlanga/repos/malaria_determinants/input/shapefiles/abidjan_grids.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 1733 features and 14 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -4.410728 ymin: 5.219212 xmax: -3.728008 ymax: 5.605487
+Geodetic CRS:  WGS 84
+Job completed on Mon 31 Mar 2025 06:46:49 PM CDT
+Total runtime: 18541 seconds (~ 309 minutes)

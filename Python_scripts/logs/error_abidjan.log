@@ -1,0 +1,59 @@
+/var/lib/slurm-llnl/slurmd/job00037/slurm_script: line 20: module: command not found
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: parallel
+Loading required package: devtools
+Loading required package: usethis
+Loading required package: raster
+Loading required package: sp
+
+Attaching package: ‘raster’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: officer
+Loading required package: magrittr
+
+Attaching package: ‘magrittr’
+
+The following object is masked from ‘package:raster’:
+
+    extract
+
+Loading required package: foot
+Loading required package: tidyr
+
+Attaching package: ‘tidyr’
+
+The following object is masked from ‘package:magrittr’:
+
+    extract
+
+The following object is masked from ‘package:raster’:
+
+    extract
+
+Loading required package: foreach
+Loading required package: doParallel
+Loading required package: iterators
+Loading required package: stringr
+Loading required package: future.apply
+Loading required package: sf
+Linking to GEOS 3.10.6, GDAL 3.6.2, PROJ 9.3.1; sf_use_s2() is TRUE
+There were 13 warnings (use warnings() to see them)
+Error in calc_fs_internal(X, zone, what, how, controlZone, controlUnits,  : 
+  Index column not found in footprints.
+Calls: calculate_footstats -> calculate_footstats.sf -> calc_fs_internal
+Execution halted

@@ -1,0 +1,2 @@
+height_extraction.py:53: UserWarning: Column names longer than 10 characters will be truncated when saved to ESRI Shapefile.
+  gdf.to_file("/home/lmhlanga/repos/malaria_determinants/output/building_metrics/abidjan_height.shp")
